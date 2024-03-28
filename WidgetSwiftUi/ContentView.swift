@@ -9,11 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
+        let superHeroArray = [superMan,ironMan,batMan]
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            ForEach(superHeroArray){ hero in
+                HeroView(hero: hero)
+            }
         }
         .padding()
     }
