@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C193A252BB5710000CA75C3 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C193A242BB5710000CA75C3 /* Superhero.swift */; };
+		7C193A272BB575D800CA75C3 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C193A262BB575D800CA75C3 /* CircularImageView.swift */; };
 		7CAA84F22BB53EE5005CBFE0 /* WidgetSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA84F12BB53EE5005CBFE0 /* WidgetSwiftUiApp.swift */; };
 		7CAA84F42BB53EE5005CBFE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA84F32BB53EE5005CBFE0 /* ContentView.swift */; };
 		7CAA84F62BB53EE8005CBFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAA84F52BB53EE8005CBFE0 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		7C193A242BB5710000CA75C3 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
+		7C193A262BB575D800CA75C3 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
 		7CAA84EE2BB53EE5005CBFE0 /* WidgetSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAA84F12BB53EE5005CBFE0 /* WidgetSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSwiftUiApp.swift; sourceTree = "<group>"; };
 		7CAA84F32BB53EE5005CBFE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				7CAA84F52BB53EE8005CBFE0 /* Assets.xcassets */,
 				7CAA84F72BB53EE8005CBFE0 /* Preview Content */,
 				7C193A242BB5710000CA75C3 /* Superhero.swift */,
+				7C193A262BB575D800CA75C3 /* CircularImageView.swift */,
 			);
 			path = WidgetSwiftUi;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CAA84F42BB53EE5005CBFE0 /* ContentView.swift in Sources */,
+				7C193A272BB575D800CA75C3 /* CircularImageView.swift in Sources */,
 				7CAA84F22BB53EE5005CBFE0 /* WidgetSwiftUiApp.swift in Sources */,
 				7C193A252BB5710000CA75C3 /* Superhero.swift in Sources */,
 			);
